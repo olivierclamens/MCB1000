@@ -1,0 +1,12 @@
+--cpu Cortex-M0
+".\obj\ssp.o"
+".\obj\ssptest.o"
+".\obj\core_cm0.o"
+".\obj\system_lpc11xx.o"
+".\obj\startup_lpc11xx.o"
+".\obj\gpio.o"
+".\obj\uart.o"
+--library_type=microlib --strict --scatter ".\Obj\ssptest.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Lst\ssptest.map" -o .\Obj\ssptest.axf

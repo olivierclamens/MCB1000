@@ -1,0 +1,38 @@
+Dependencies for Project 'ssp', Target 'SSP_Debug': (DO NOT MODIFY !)
+F (.\ssp.c)(0x5C9505E4)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\Common\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC11xx-D__UVISION_VERSION="517" -D__DEBUG_RAM-o .\obj\ssp.o --omf_browse .\obj\ssp.crf --depend .\obj\ssp.d)
+I (..\Common\inc\LPC11xx.h)(0x4FC4E09A)
+I (..\Common\inc\core_cm0.h)(0x4F4E12A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB7FE0)
+I (..\Common\inc\system_LPC11xx.h)(0x4F4E32A6)
+I (..\Common\inc\gpio.h)(0x4F90185A)
+I (ssp.h)(0x4FFD4DE4)
+F (.\ssptest.c)(0x5C950566)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\Common\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC11xx-D__UVISION_VERSION="517" -D__DEBUG_RAM-o .\obj\ssptest.o --omf_browse .\obj\ssptest.crf --depend .\obj\ssptest.d)
+I (..\Common\inc\LPC11xx.h)(0x4FC4E09A)
+I (..\Common\inc\core_cm0.h)(0x4F4E12A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB7FE0)
+I (..\Common\inc\system_LPC11xx.h)(0x4F4E32A6)
+I (..\Common\inc\gpio.h)(0x4F90185A)
+I (ssp.h)(0x4FFD4DE4)
+I (..\Common\inc\uart.h)(0x4F4E12A8)
+F (..\Common\src\core_cm0.c)(0x4E400E40)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\Common\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC11xx-D__UVISION_VERSION="517" -D__DEBUG_RAM-o .\obj\core_cm0.o --omf_browse .\obj\core_cm0.crf --depend .\obj\core_cm0.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB7FE0)
+F (..\Common\src\system_LPC11xx.c)(0x4F70B318)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I. -I..\Common\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC11xx-D__UVISION_VERSION="517" -D__DEBUG_RAM-o .\obj\system_lpc11xx.o --omf_browse .\obj\system_lpc11xx.crf --depend .\obj\system_lpc11xx.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB7FE0)
+I (..\Common\inc\LPC11xx.h)(0x4FC4E09A)
+I (..\Common\inc\core_cm0.h)(0x4F4E12A8)
+I (..\Common\inc\system_LPC11xx.h)(0x4F4E32A6)
+F (..\Common\src\startup_LPC11xx.s)(0x4E4010BA)(--cpu Cortex-M0 --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC11xx--pd "__UVISION_VERSION SETA 517"--list .\lst\startup_lpc11xx.lst --xref -o .\obj\startup_lpc11xx.o --depend .\obj\startup_lpc11xx.d)
+F (..\Common\src\gpio.c)(0x4F90198A)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\Common\inc -I. -I..\Common\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC11xx-D__UVISION_VERSION="517" -D__DEBUG_RAM-o .\obj\gpio.o --omf_browse .\obj\gpio.crf --depend .\obj\gpio.d)
+I (..\Common\inc\LPC11xx.h)(0x4FC4E09A)
+I (..\Common\inc\core_cm0.h)(0x4F4E12A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB7FE0)
+I (..\Common\inc\system_LPC11xx.h)(0x4F4E32A6)
+I (..\Common\inc\gpio.h)(0x4F90185A)
+F (..\Common\src\uart.c)(0x4F90198A)(-c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I..\Common\inc -I. -I..\Common\inc-I C:\Keil_v5\ARM\RV31\INC-I C:\Keil_v5\ARM\CMSIS\Include-I C:\Keil_v5\ARM\Inc\NXP\LPC11xx-D__UVISION_VERSION="517" -D__DEBUG_RAM-o .\obj\uart.o --omf_browse .\obj\uart.crf --depend .\obj\uart.d)
+I (..\Common\inc\LPC11xx.h)(0x4FC4E09A)
+I (..\Common\inc\core_cm0.h)(0x4F4E12A8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x55DB7FE0)
+I (..\Common\inc\system_LPC11xx.h)(0x4F4E32A6)
+I (..\Common\inc\type.h)(0x4F901952)
+I (..\Common\inc\uart.h)(0x4F4E12A8)
+F (.\readme.txt)(0x4FFBFC3A)()
